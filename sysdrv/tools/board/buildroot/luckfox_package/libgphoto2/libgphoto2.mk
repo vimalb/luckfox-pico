@@ -7,6 +7,7 @@
 LIBGPHOTO2_VERSION = 2.5.40
 LIBGPHOTO2_SOURCE = libgphoto2-$(LIBGPHOTO2_VERSION).tar.xz
 LIBGPHOTO2_SITE = $(TOPDIR)/package/libgphoto2
+LIBGPHOTO2_SITE_METHOD = file
 LIBGPHOTO2_LICENSE = LGPL-2.1+, GPL-2.0 (adc65), GPL-2.0+ (some camlibs), \
 	LGPL-2.0 (sipix), LGPL-3.0+ (pentax), BSD-3-Clause (ax203/tinyjpeg)
 # There is a single license file for the LGPL-2.1, no license files
